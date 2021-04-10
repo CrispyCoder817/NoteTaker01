@@ -16,6 +16,6 @@ app.use(Express.static('public'));
 require('./routes/routes')(app);
 require('./routes/HomeRoutes')(app);
 // Listener up and running
-app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
-});
+app.listen(PORT, () => {
+    console.log(`App listening: ${PORT}`);
+  });
