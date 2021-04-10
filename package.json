@@ -1,26 +1,15 @@
 {
-  "name": "NoteTaker01",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "A web app that takes notes and saves them",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql": "^2.18.1",
-    "node": "^15.12.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CrispyCoder817/NoteTaker01.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CrispyCoder817/NoteTaker01/issues"
-  },
-  "homepage": "https://github.com/CrispyCoder817/NoteTaker01#readme"
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
