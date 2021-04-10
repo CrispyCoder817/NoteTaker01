@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 // Parse the data
 app.use(Express.urlencoded({ extended: true }));
 app.use(Express.json());
-app.use(Express.static('./public'));
+app.use(Express.static('public'));
 
 //Require routes file
 require('./routes/routes')(app);
